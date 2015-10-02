@@ -1,0 +1,72 @@
+.fade-in{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -webkit-transition-delay: 2s;
+  transition-delay: 2.8s;
+}
+
+.slide-up{
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+}
+@-webkit-keyframes slide {    100% { top: 0; }}
+@keyframes slide {    100% { top: 0; }}
+@-moz-keyframes {    100% { top: 0; }}
+@-o-keyframes {    100% { top: 0; }}
+
+.shrink{
+  -webkit-animation: pulse 1s ease forwards;
+  -moz-animation: pulse 1s ease forwards;
+  -o-animation: pulse 1s ease forwards;
+  animation: pulse 1s ease forwards;
+  animation-delay: 3.5s;
+}
+@keyframes pulse {
+  0% {    transform: scale(1.5);    opacity: 0;  }
+  100% {    transform: scale(1);    opacity: 1;  }
+}
+@-webkit-keyframes pulse {
+  0% {    transform: scale(1.5);    opacity: 0;  }
+  100% {    transform: scale(1);    opacity: 1;  }
+}
+@-moz-keyframes{
+  0% {    transform: scale(1.5);    opacity: 0;  }
+  100% {    transform: scale(1);    opacity: 1;  }
+}
+@-o-keyframes{
+  0% {    transform: scale(1.5);    opacity: 0;  }
+  100% {    transform: scale(1);    opacity: 1;  }  
+}
+
+/*TITLE NAME ANIMATION*/
+
+#anim_heading {
+  position: relative;
+  margin-top: 80px;
+  margin-left: -20px;
+}
+#anim_name{
+  position: relative;
+  width: 100px;
+}
+.anim-hide{
+  display: none;
+}
+.animate{
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: draw 2.5s linear forwards;
+  -webkit-animation: draw 2.5s linear forwards;
+  -moz-animation: draw 2.5s linear forwards;
+  -o-animation: draw 2.5s linear forwards;
+  font-family:'Coming Soon';
+  -inkscape-font-specification:'Coming Soon';
+}
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@-webkit-keyframes draw { to { stroke-dashoffset: 0; } }
+@-moz-keyframes draw { to { stroke-dashoffset: 0; } }
+@-o-keyframes draw { to { stroke-dashoffset: 0; } }
