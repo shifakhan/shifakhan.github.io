@@ -267,7 +267,7 @@
          id="g10658">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:'Coming Soon';-inkscape-font-specification:'Coming Soon';letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22px;line-height:125%;font-family:'Coming Soon';-inkscape-font-specification:'Coming Soon';letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="405.60837"
            y="204.18884"
            id="text4914"
@@ -435,7 +435,7 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:'Coming Soon';-inkscape-font-specification:'Coming Soon';letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Coming Soon';-inkscape-font-specification:'Coming Soon';letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="240.04793"
          y="430.84961"
          id="text10691"
@@ -445,7 +445,7 @@
            id="tspan10693"
            x="240.04793"
            y="430.84961"
-           style="fill:#999999;fill-opacity:1">Haml</tspan></text>
+           style="fill:#999999;fill-opacity:1">SCSS</tspan></text>
     </g>
   </g>
 </svg>
